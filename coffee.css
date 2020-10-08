@@ -1,0 +1,95 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0 auto;
+}
+#tea-cozy-logo {
+  display: inline-block;
+  margin-left: 10px;
+}
+.logo {
+  height: 50px;
+}
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin: 0 auto;
+  align-items: center;
+}
+.index a {
+  text-decoration: seashell underline;
+  color: seashell;
+  margin-right: 30px;
+}
+.index {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mission-background {
+  background-image: url("img-mission-background.webp");
+  height: 700px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#mission {
+  background-color: black;
+  width: 1200px;
+  margin: auto;
+}
+.second-container {
+  width: 1000px;
+  margin: auto;
+}
+.tea-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.tea-pic {
+  height: 200px;
+  width: 300px;
+}
+.third-container {
+  background-image: url("img-locations-background.webp");
+  height: 500px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 70px;
+}
+.location-boxes-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.downtown,
+.bayside,
+.oakdale {
+  background-color: black;
+  margin: 40px;
+  width: 300px;
+  line-height: 2em;
+}
+footer {
+  height: 200px;
+}
+.end {
+  text-align: left;
+  margin-left: 20px;
+}
